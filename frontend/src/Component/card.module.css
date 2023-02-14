@@ -1,0 +1,33 @@
+.card {
+    aspect-ratio: 1;
+    border-radius: 1rem;
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: 0 0 50px rgb(185, 185, 185);
+    width: 100%;
+    padding: 1rem;
+    font-family: walsheim, Helvetica, Arial, Lucida Grande, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.imageContainer {
+    width: 25%;
+    aspect-ratio: 1;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(33, 37, 41);
+}
+
+.title {
+    text-align: center;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+}
+
+.description {
+    font-weight: 400;
+}

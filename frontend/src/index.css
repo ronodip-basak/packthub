@@ -1,0 +1,73 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.h-full {
+  min-height: 100vh;
+}
+
+/* Search */
+.InstantSearchContainer {
+  min-height: 95vh;
+}
+
+.ais-SearchBox {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.ais-SearchBox-input {
+  color: black;
+}
+
+.ais-Hits {
+  margin-top: 1rem !important;
+}
+
+.ais-Hits-list {
+  max-width: 100%;
+  padding: 2rem;
+}
+
+.ais-Hits-item {
+  width: calc(50% - 2rem) !important;
+}
+
+.hit-name {
+  font-family: Outfit;
+font-size: 18px;
+/* font-style: ; */
+}
+.hit-description span {
+
+font-family: Outfit;
+font-size: 12px;
+font-style: normal;
+}
+
+
+
+@media (max-width: 670px) {
+  .ais-Hits-item {
+    width: calc(100% - 2rem) !important;
+  }
+}
+
+@media (min-width: 1000px) {
+  .ais-Hits-item {
+    width: calc(33% - 3rem) !important;
+  }
+}
+
