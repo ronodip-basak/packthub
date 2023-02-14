@@ -33,6 +33,7 @@ cd into the backend directory. Now run :
 php composer.phar install
 cp .env.example .env
 php artisan key:generate
+php artisan storage:link
 ```
 
 Now it is time to update our .env Variables. Adjust the following variables are (if needed). 
